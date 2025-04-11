@@ -1,7 +1,9 @@
 # t3rn_faucet
 t3rn水龙头，测试地址：http://107.174.79.186:8099/
 
-主要功能：如果是新地址可以无gas领取BRN，但领取其他测试币如TST，T3usd则需要BRN当GAS。
+主要功能：提供BRN，TST，T3usd这三种币为可领取水龙头
+
+如果是新地址可以无gas领取BRN，每天一次0.01brn。领取其他测试币如TST，T3usd则需要BRN当GAS。
 
 ## 1.环境配置安装docker
     sudo apt-get update
