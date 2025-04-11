@@ -14,10 +14,21 @@ t3rn水龙头，测试地址：http://107.174.79.186:8099/
 编写并部署水龙头合约，部署成功后向水龙头合约转入BRN测试币及其他测试币
 
 ## 3.准备后端代码并运行
-server.py, Dockerfile, docker-compose.yml, 和 index.html 放在同一目录，并运行相关命令
 
-    touch claims.db && chmod 666 claims.db
+3.11 修改docker-compose.yml中的OPERATOR_PRIVATE_KEY 和 OPERATOR_ADDRESS
+
+3.12 修改index.html的合约参数
+
+3.13 创建并设置 claims.db 文件权限
+
+    touch claims.db && chmod 666 claim.db
+
+3.14 构建 Docker 镜像
+
     docker build -t brn-faucet .
+
+3.15 运行容器
+
     docker compose up -d
 
 检查运行日志
