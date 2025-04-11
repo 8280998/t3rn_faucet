@@ -1,0 +1,11 @@
+version: '3'
+services:
+  brn-faucet:
+    image: brn-faucet
+    ports:
+      - "3111:3111"
+    volumes:
+      - ./claims.db:/app/claims.db
+    environment:
+      - OPERATOR_PRIVATE_KEY=1234567890
+      - OPERATOR_ADDRESS=0x1234567890
