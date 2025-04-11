@@ -48,5 +48,7 @@ t3rn水龙头，测试地址：http://107.174.79.186:8099/
 领取界面如下：
 ![image](https://github.com/user-attachments/assets/9cdb302f-af3f-41ff-8707-d34f20fe93d9)
 
+![image](https://github.com/user-attachments/assets/5cccf72b-ce4e-4e61-906d-767090f2f3b8)
+
 ![image](https://github.com/user-attachments/assets/34124296-28dc-4f65-8652-5915c43908e5)
 
