@@ -26,6 +26,8 @@ server.py, Dockerfile, docker-compose.yml, 和 index.html 放在同一目录，�
 
 ## 4.开启临时访问
 
+测试玩的怎么简单怎么来，稳定的话还是得web服务组件
+
     python3 -m http.server 8099
 
 ## 打开水龙头领取页面进行操作
