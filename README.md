@@ -1,9 +1,8 @@
 # t3rn_faucet
-t3rn水龙头，测试地址：http://107.174.79.186:8099/
+测试地址：https://warpcast-mini-app.vercel.app/  已部署到base测试网
 
-主要功能：提供BRN，TST，T3usd这三种币为可领取水龙头
+主要功能：提供GT为可领取水龙头
 
-如果是新地址可以无gas领取BRN，每天一次0.01brn。领取其他测试币如TST，T3usd则需要BRN当GAS。
 
 ## 1.环境配置安装docker
     sudo apt-get update
@@ -43,7 +42,7 @@ t3rn水龙头，测试地址：http://107.174.79.186:8099/
 
 ## 打开水龙头领取页面进行操作
 
-打开浏览器，访问 http://107.174.79.186:8099
+打开浏览器，访问https://warpcast-mini-app.vercel.app/
 
 领取界面如下：
 ![image](https://github.com/user-attachments/assets/9cdb302f-af3f-41ff-8707-d34f20fe93d9)
